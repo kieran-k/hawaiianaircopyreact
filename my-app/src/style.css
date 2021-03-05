@@ -40,6 +40,7 @@ h1 {
 
 .logo {
   margin-left: 30px;
+  padding-top: 5px;
 }
 
 .top {
@@ -52,7 +53,7 @@ h1 {
   height: 800px;
   overflow: hidden;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 25px;
   background-image: url("https://www.hawaiianairlines.com/static/images/homepage-heroes/homepagebg-mountain-range.jpg?version=18b8&sc_lang=en%27");
   background-size: cover;
   background-repeat: no-repeat;
