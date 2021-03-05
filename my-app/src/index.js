@@ -81,7 +81,10 @@ class Background extends React.Component {
           <Menu attached='top' tabular>
     <Menu.Item
     name='Flights'
-    active={activeItem === 'Flights'}/>
+    active={activeItem === 'Flights'}>
+      <Icon name="plane"></Icon>
+      Flights
+    </Menu.Item>
             <Menu.Item><p>Vacation Deals</p></Menu.Item>
             <Menu.Item><p>Hotel</p></Menu.Item>
             <Menu.Item><p>Transportation</p></Menu.Item>
