@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import 'semantic-ui-css/semantic.min.css';
 import {
+  Container,
   Dropdown,
   Form,
   Grid,
@@ -74,7 +75,8 @@ class Background extends React.Component {
     return (
         <div className="background">
           <div className="middlepage">
-            <Grid centered columns={2}>
+            <Container>
+            <Grid centered columns={1}>
               <Grid.Column>
           <Menu attached='top' tabular>
     <Menu.Item
@@ -101,6 +103,7 @@ class Background extends React.Component {
                     </Segment>
               </Grid.Column>
             </Grid>
+            </Container>
           </div>
         </div>
     );
