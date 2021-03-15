@@ -80,7 +80,6 @@ p {
 .ui.attached.tabular.menu {
   margin-left: 100px;
   margin-right: 100px;
-  width: 55%;
     background-color: purple;
 }
 
@@ -88,9 +87,9 @@ p {
   border-top: none;
   margin-left: 100px;
   margin-right: 100px;
-  width: 55%;
   background-color: purple;
   border: none;
+
 }
 
 .ui.tabular.top.menu .active.item {
@@ -117,12 +116,4 @@ p {
   padding-bottom: 50px;
   padding-top: 50px;
   color: black;
-}
-
-.ui.centered.one.column.grid {
-    border-radius: 25px;
-    background: purple;
-    padding: 20px;
-    width: 800px;
-    height: 200px;
 }
