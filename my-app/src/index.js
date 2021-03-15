@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import 'semantic-ui-css/semantic.min.css';
 import {
-  Container,
   Dropdown,
   Form,
   Grid,
-  Header,
   Icon,
   Image,
   Input,
