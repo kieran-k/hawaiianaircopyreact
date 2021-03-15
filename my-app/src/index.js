@@ -78,20 +78,20 @@ class Background extends React.Component {
             <Container>
             <Grid centered columns={1}>
               <Grid.Column>
-          <Menu attached='top' tabular>
-    <Menu.Item
-    name='Flights'
-    active={activeItem === 'Flights'}>
-      <Icon name="plane"></Icon>
-      Flights
-    </Menu.Item>
-            <Menu.Item><p>Vacation Deals</p></Menu.Item>
-            <Menu.Item><p>Hotel</p></Menu.Item>
-            <Menu.Item><p>Transportation</p></Menu.Item>
-            <Menu.Item fitted><p>Check-In</p></Menu.Item>
-            <Menu.Item><p>My Trips</p></Menu.Item>
-            <Menu.Item ><p>Flight Status</p></Menu.Item>
-          </Menu>
+               <Menu attached='top' tabular>
+                <Menu.Item
+                name='Flights'
+                active={activeItem === 'Flights'}>
+                  <Icon name="plane"></Icon>
+                  Flights
+                </Menu.Item>
+                    <Menu.Item><p>Vacation Deals</p></Menu.Item>
+                    <Menu.Item><p>Hotel</p></Menu.Item>
+                    <Menu.Item><p>Transportation</p></Menu.Item>
+                    <Menu.Item fitted><p>Check-In</p></Menu.Item>
+                    <Menu.Item><p>My Trips</p></Menu.Item>
+                    <Menu.Item ><p>Flight Status</p></Menu.Item>
+                  </Menu>
                 <Segment attached='bottom'>
                   <Form>
                     <Form.Group widths='equal'>

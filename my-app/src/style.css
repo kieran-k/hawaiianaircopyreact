@@ -118,3 +118,7 @@ p {
   padding-top: 50px;
   color: black;
 }
+
+.ui.centered.one.column.grid {
+    background-color: purple;
+}
