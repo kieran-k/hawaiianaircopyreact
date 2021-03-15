@@ -78,14 +78,14 @@ p {
   background-color: purple;
 }
 .ui.attached.tabular.menu {
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
     background-color: purple;
 }
 
 .ui.tabular.menu+.attached:not(.top).segment, .ui.tabular.menu+.attached:not(.top).segment+.attached:not(.top).segment {
   border-top: none;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
   background-color: purple;
   border: none;
