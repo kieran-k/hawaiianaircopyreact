@@ -88,15 +88,15 @@ class Background extends React.Component {
                     <Menu.Item><p>Vacation Deals</p></Menu.Item>
                     <Menu.Item><p>Hotel</p></Menu.Item>
                     <Menu.Item><p>Transportation</p></Menu.Item>
-                    <Menu.Item fitted><p>Check-In</p></Menu.Item>
+                    <Menu.Item><p>Check-In</p></Menu.Item>
                     <Menu.Item><p>My Trips</p></Menu.Item>
                     <Menu.Item ><p>Flight Status</p></Menu.Item>
                   </Menu>
                 <Segment attached='bottom'>
                   <Form>
                     <Form.Group widths='equal'>
-                      <Form.Input placeholder='from:   City, Airport or Island' width={6}  />
-                      <Form.Input placeholder='to:  City, Airport or Island' width={5} />
+                      <Form.Input placeholder='from:   City, Airport or Island' width={7}  />
+                      <Form.Input placeholder='to:  City, Airport or Island' width={7} />
                       <button className="ui button">Next <Icon name='right arrow' /></button>
                     </Form.Group>
                   </Form>

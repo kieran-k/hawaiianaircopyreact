@@ -120,5 +120,7 @@ p {
 }
 
 .ui.centered.one.column.grid {
-    background-color: purple;
+    border-radius: 25px;
+    background: purple;
+    padding: 20px;
 }
