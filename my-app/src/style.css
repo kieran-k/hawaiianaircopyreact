@@ -123,4 +123,6 @@ p {
     border-radius: 25px;
     background: purple;
     padding: 20px;
+    width: 800px;
+    height: 200px;
 }
